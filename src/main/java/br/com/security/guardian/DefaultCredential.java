@@ -7,9 +7,7 @@ public class DefaultCredential implements Serializable, Credential {
 
 	private String userName;
 //	private Set<String> roles;
-//	private Ser
 	private boolean valid;
-//	private SecurityUtil security;
 
 	public DefaultCredential() {
 		this.setAuthenticated(false);
